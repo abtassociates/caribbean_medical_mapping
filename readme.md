@@ -33,7 +33,7 @@ A site to reproduce the functionality of a number or equivalent Access databases
 
 3. cd into your server's web directory and pull down the project repository
 
-        git clone git@bitbucket.org:abtassociates/caribbeanmfl.git
+        git clone git@github.com:abtassociates/caribbean_medical_mapping.git
 
 4. Make sure Git will not alter file permissions
 
