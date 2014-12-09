@@ -1,0 +1,481 @@
+/* 
+
+Owner: Abt Associates develop by CTC
+Authors: John Bussy & Tim Jordan
+Description: This style sheet will override Bootstrap/Ace theme styles. Make your custom style changes here.
+Base theme: *Ace Admin* from www.wrapstrap.com
+
+*/
+
+#resource-summary-row{
+	margin-top: 25px;
+}
+
+#report-missing-wrapper{
+	margin-top: 12px;
+}
+
+
+label.plain{
+	font-weight: normal;
+	color: #585858;
+}
+
+td.disabled{
+	color: #ABBAC3;
+}
+
+.text-error{
+	color: red;
+	font-size: 14px;
+	display: inline-block;
+}
+
+img.logo{
+	max-width: 190px;
+}
+
+.secondary-logo{
+	height: auto;
+	margin-left: 3px;
+	max-width: 110%;
+}
+
+h1, h2, h3 {
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.nav-list>li>a:hover {
+background-color: #FFF;
+color: #02408a;
+}
+
+
+.nav-list>li>a:hover:before {
+display: block;
+content: "";
+position: absolute;
+top: -1px;
+bottom: 0;
+left: 0;
+width: 3px;
+max-width: 3px;
+overflow: hidden;
+background-color: #02408a;
+}
+
+.error-submitting{
+	position: relative;
+	left: -50%;
+	border: 6px solid #888;
+	border-radius: 15px;
+	padding: 6px 12px;
+	font-weight: 900;
+	font-size: 38px;
+	color: #888;
+	display: none;
+}
+
+.facilities_show .error-button{
+	margin-right: 10px;
+}
+
+#filters{
+	border:1px solid #c5d0dc;
+	padding: 8px 0px 4px 0px;
+	margin: 15px 0px;
+}
+
+.pagination>li.active>a, .pagination>li.active>a:hover {
+background-color: #c5d0dc;
+border-color: #c5d0dc;
+color: #fff;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+}
+
+.pagination>li>a, .pager>li>a {
+color: #02408a;
+background-color: #fafafa;
+margin: 0 -1px 0 0;
+border-color: #e0e8eb;
+}
+.pagination>li.active>a, .pagination>li.active>a:hover {
+background-color: #c5d0dc;
+border-color: #c5d0dc;
+color: #02408a;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+}
+
+body, a.email {
+font-family: "Muli", sans-serif;
+font-size: 16px;
+line-height: 1.428571429;
+color: #333;
+background-color: #fff;
+}
+
+.report-section{
+	background-color: #CCC;
+	margin: 20px 0px;
+	padding: 5px;
+}
+
+.country-name {
+margin: 10px;
+font-size: 20px;
+}
+
+.nav-list>li>a {
+line-height: 36px;
+color: #585858;
+text-shadow: none!important;
+font-size: 20px;
+}
+
+.breadcrumbs {
+position: inherit;
+border-bottom: 1px solid #e5e5e5;
+background-color: #f5f5f5;
+min-height: 41px;
+line-height: 40px;
+padding: 0 12px 0 0;
+display: block;
+}
+
+.main-content-header{
+height: auto;
+background-color: #02408a;
+color:#fff;
+border-bottom: 3px solid #c4d590;
+}
+
+.sidebar:before {
+background-color: #fff;
+}
+
+div.hello_user {
+padding-top: 8px;
+}
+
+#main-container > div > div.main-content > div.col-xs-12.main-content-header > div.hello_user.pull-left > a {
+color: #fff;
+text-decoration: underline;
+}
+
+.btn-custom-blue{
+background-color: #02408a !important;
+border: 0px !important;
+}
+
+.btn-custom-danger{
+background-color: #D15B47 !important;
+border: 0px !important;
+}
+
+.page-header h1 {
+color: #02408a; 
+}
+
+.blue {
+color: #02408a!important;
+}
+
+.dataTable th[class*=sort] {
+color: #02408a;
+}
+
+.dataTable th.sorting_desc:after  {
+content: "\f0dd";
+top: -6px;
+color: #02408a;
+}
+
+.dataTable th.sorting_asc:after {
+content: "\f0de";
+top: 4px;
+color: #02408a;
+}
+
+@media only screen and (max-width: 991px){
+	#main-container > div > div.main-content > div.col-xs-12.main-content-header > div.hello_user.pull-left{
+	float: right !important;
+	}
+	#main-container > div > div.main-content > div.col-xs-12.main-content-header > div.USAID_brand.pull-right {
+	display: none;
+	}
+	#sidebar > div.logo-header {
+	display: none;
+	}
+	#breadcrumbs > ul {
+	display: none;
+	}
+	div.country-name.pull-right {
+	font-size: 0.8em;
+	float: inherit !important;
+	position: absolute;
+	right: 0px;
+	top: 27px;
+	}
+	.USAID_brand{
+		margin-left: 100px;
+	}
+	#mapWrap{
+		margin-top: 20px;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	.USAID_brand{
+		margin-left: 30px;
+	}
+
+	.secondary-logo{
+		max-width: 100%;
+	}
+
+	#usaid-mobile {
+		max-width: 140px !important;
+	}
+
+	#pepfar {
+		max-width: 50px;
+	}
+
+	#shops {
+		max-width: 68px;
+	}
+
+	.footer {
+		width: 300px !important;	
+	}
+
+	.footer > .pull-right {
+		margin-right: 8px !important;
+	}
+
+}
+
+.tabs-left .tab-content, .tabs-right .tab-content {
+overflow: auto;
+min-height: 310px;
+padding: 15px;
+}
+
+.profile-info-name {
+position: absolute;
+width: 160px;
+text-align: right;
+padding: 6px 10px 6px 0;
+left: 0;
+top: 0;
+bottom: 0;
+font-weight: normal;
+color: #667e99;
+background-color: transparent;
+border-top: 1px dotted #d5e4f1;
+}
+
+.profile-info-value {
+padding: 6px 4px 6px 6px;
+margin-left: 160px;
+border-top: 1px dotted #d5e4f1;
+}
+
+.table {
+width: 100%;
+margin-bottom: 0px;
+}
+
+.clinics_edit .form-group {
+margin-bottom: 9px;
+}
+
+.label-sm {
+padding: .4em .4em .3em;
+font-size: 11px;
+line-height: 1;
+height: 18px;
+border-radius: 5px;
+}
+
+label {
+font-weight: bold;
+color: #02408a;
+}
+
+.prev-next{
+margin-right: 6px;
+}
+
+.apply-filter{
+	margin-top:23px;
+}
+
+.group-wrapper{
+background: #D2E0DA;
+padding: 0 15px 5px;
+margin-bottom:5px;
+}
+
+.chosen-single div b:before {
+content: "\f0d7";
+display: inline-block;
+color: #02408a;
+font-family: FontAwesome;
+font-size: 12px;
+position: relative;
+top: -1px;
+left: 1px;
+}
+.chosen-container-single .chosen-drop {
+border-radius: 0;
+border-bottom: 3px solid #02408a;
+border-color: #02408a;
+}
+.chosen-container-active .chosen-single {
+border-color: #02408a;
+}
+.chosen-container-active.chosen-with-drop .chosen-single {
+border-color: #02408a;
+}
+
+.chosen-container-active .chosen-choices {
+border: 1px solid #02408a;
+box-shadow: 0 0 5px rgba(0,0,0,.3);
+}
+
+.chosen-container.chosen-with-drop .chosen-drop {
+left: 0;
+border: 1px solid #02408a;
+}
+.nav-tabs.tab-color-blue>li>a, .nav-tabs.tab-color-blue>li>a:focus {
+background-color: #02408a;
+}
+.nav-tabs.tab-color-blue>li.active>a, .nav-tabs.tab-color-blue>li.active>a:focus, .nav-tabs.tab-color-blue>li.active>a:hover {
+color: #4c718a;
+border-color: #02408a #02408a transparent;
+}
+
+.clinics_edit .form-horizontal .form-group {
+margin-right: -15px;
+margin-left: -15px;
+}
+
+div.form-group .control-title{
+background:#B4B4B4; display:block;
+}
+
+div#facilities-table_info {
+padding-top: 17px;
+}
+.dataTables_paginate.paging_bootstrap {
+padding-top: 7px;
+}
+#mapWrap{
+	border: 4px solid #CCCCCC;
+	border-radius: 3px;
+	padding: 0px;
+}
+
+.markerItem{
+	margin: 10px 0px 10px 0px;
+}
+
+.markerItem1, .markerItem2, .markerItem3{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-bottom: -5px;
+	margin-right: 3px;
+	border-radius: 50%;
+}
+
+.markerItem1{
+	background-color: #82AF6F;
+}
+.markerItem2{
+	background-color: #F89406;
+}
+.markerItem3{
+	background-color: #D15B47;
+}
+
+@media only screen and (max-width: 600px){
+	.profile-user-info-striped .profile-info-name {
+		position: static;
+		width: auto;
+		text-align: left;
+		padding: 6px 0 6px 10px;
+	}
+	.profile-info-value{
+		margin-left: 0px;
+	}
+}
+
+.facPageHeader{
+	display: inline-block;
+	min-width: 342px;
+}
+
+.widget-body, #facilities-table_wrapper{
+	overflow: auto;
+}
+
+.filterSelect{
+	width: 90%;
+}
+
+.filterFormGroup label{
+	display: block;
+}
+
+.btn-scroll-up {
+border: 0;
+position: absolute;
+left:2px;
+right: inherit;
+bottom: 2px;
+z-index: 11;
+}
+
+.footer {
+	padding-bottom: 20px;
+	width: 600px;
+	height: auto;
+	float: right;
+	padding-right: 16px;
+  /*border-style: solid;
+  border-width: 5px;*/
+}
+
+.disclaimer {
+	font-size: 11px;
+	padding-top: 15px;
+}	
+
+#settings-form input[type=radio]{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.report-profile-info{
+	min-height: 173px;
+}
+
+.font-style-1{
+	font-weight: bold;
+	color: #02408a;
+}
+.font-style-2{
+	color: #02408a;
+}
+
+.cust-blue{
+	background:#02408a;
+}
+
+#reset-button{
+	margin-right: 5px;
+}

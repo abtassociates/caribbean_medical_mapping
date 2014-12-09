@@ -1,0 +1,23 @@
+# Laravel
+/bootstrap/compiled.php
+/vendor
+
+# Configuration
+/app/config/local/app.php
+/app/config/local/database.php
+/app/config/local/mail.php
+
+# Admin Uploaded Images
+/public/assets/img/custom
+
+# Composer
+composer.phar
+
+# OS
+.DS_Store
+.idea/
+
+# Packages
+_ide_helpers.php
+
+#.htpasswd

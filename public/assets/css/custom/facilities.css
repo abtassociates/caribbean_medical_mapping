@@ -1,0 +1,27 @@
+
+.clinic-details{
+	display: none;
+	margin-top: 50px;
+}
+
+.form-horizontal .control-label{
+	text-align: left !important;
+}
+
+.clinic-details .form-group{
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.clinic-details label.secondary{
+	padding-left: 40px;
+}
+
+.clinic-details label.tertiary{
+	padding-left: 80px;
+}
+
+.clinics_show .table-bordered>tbody>tr>td{
+
+background:#000;
+}
